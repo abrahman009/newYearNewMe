@@ -15,14 +15,31 @@
 .justify-center{
     justify-content: center;
 }
+.justify-between{
+    justify-content: space-between;
+}
 .align-center{
     align-items: center;
+}
+.text-center{
+    text-align: center;
 }
 .text-end{
     text-align: end;
 }
 .text-blue{
     color: #16D887;
+}
+.text-white{
+    color: #ffffff;
+}
+.btn{
+    color: #005FAC;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 18px 24px;
+    border-radius: 5px;
+    border: none;
 }
 /* banner */
 #banner{
@@ -59,4 +76,93 @@
 }
 #failure ul li {
     margin: 7px 0;
+}
+/* plans section */
+#plans h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+#plans h3{
+    margin: 15px 0;
+}
+/* holiday plan */
+#holidayPlan h2{
+    padding: 82px 0 25px;
+    font-size: 40px;
+}
+#holidayPlan .card{
+    position: relative;
+}
+#holidayPlan .card img{
+    width: 350px;
+    border-radius: 5px;
+}
+#holidayPlan .card div{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+    background-color: #005fac96;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+#holidayPlan h3{
+    font-size: 25px;
+    margin: 10px 0;
+}
+/* footer Top */
+#footerTop{
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    margin: 72px auto;
+    height: 300px;
+    color: white;
+}
+#footerTop div{
+    padding-left: 64px;
+}
+#footerTop h2{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+/* footer */
+footer{
+    background-color: #151414;
+    color: white;
+}
+footer .container{
+    height: 400px;
+}
+footer p{
+    margin: 20px 0;
+}
+footer h3{
+    font-size: 25px;
+}
+footer input[type="email"]{
+    height: 34px;
+    background-color: transparent;
+    border-radius: 5px;
+    width: 300px;
+    border: 1px solid white;
+    padding: 5px 10px;
+    margin: 20px 0;
+}
+footer input[type="email"]::placeholder{
+    color: white;
+    font-size: 15px;
+}
+footer input[type="email"]:focus-visible{
+    outline:solid #005FAC;
+    border: 1px solid transparent;
+}
+footer input[type="submit"]{
+    font-size: 16px;
+    padding: 15px 30px;
+    background-color: #005FAC;
+    color: white;
+    border-radius: 5px;
 }
