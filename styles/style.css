@@ -1,25 +1,62 @@
+*{
+    margin: 0;
+}
 .container{
-    width: 1240px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 .d-flex{
     display: flex;
 }
+.flex-column{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.text-end{
+    text-align: end;
+}
+.text-blue{
+    color: #16D887;
+}
 /* banner */
-.banner h1{
-    font-size: 65px;
-    color: #FFFFFF;
-    padding-top: 10px;
-}
-.banner p{
-    font-size: 16px;
-    color: #FFFFFF;
-    padding-top: 10px;
-}
 #banner{
     background-image: url(../images/banner/banner3.png);
     background-position: center;
     background-repeat: no-repeat;
-
+    background-size: cover;
+    height: 600px;
+    padding-top: 230px;
+    color: white;
+}
+#banner h1{
+    font-size: 65px;
+}
+#banner p{
+    font-size: 16px;
+    padding: 20px 0;
+}
+/* failure section */
+#failure {
+    padding: 72px 0;
+}
+#failure h2{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+#failure div{
+    padding-left: 50px;
+}
+#failure ul{
+    margin-top: 16px;
+    list-style: none;
+    padding-left: 0;
+}
+#failure ul li {
+    margin: 7px 0;
 }
